@@ -2,8 +2,13 @@
 
 Wenji Fang, Yao Lu, Shang Liu, Qijun Zhang, Ceyu Xu, Lisa Wu Wills, Hongce Zhang, Zhiyao Xie. In Proceedings of IEEE/ACM International Conference on Computer Aided Design (ICCAD), 2023. [[paper]](https://ieeexplore.ieee.org/abstract/document/10323951)
 
-## Update!
-Thanks for your interest in our RTL-stage PPA modeling work. We have improved this work to achieve more fine-grained register slack evaluation and more accurate WNS and TNS prediction at the RTL stage, with much easier pre-processing for RTL designs. For more details, please refer to [RTL-Timer (DAC'24)](https://github.com/hkust-zhiyao/RTL-Timer).
+## Latest Update!
+
+***Note:*** MasterRTL repo will no longer be maintained, please refer to [RTL-Timer repository](https://github.com/hkust-zhiyao/RTL-Timer) for easier and more accurate RTL-stage PPA modeling!
+
+Thanks for your interest in our RTL-stage PPA modeling work. We have been continuously developing RTL-stage PPA modeling methodologies to improve both usability and accuracy. Building upon the limitations of the original MasterRTL—particularly the tedious and less accurate preprocessing—we have developed RTL-Timer [[paper]](https://arxiv.org/abs/2403.18453), a fine-grained timing slack evaluation framework. It also supports design-level WNS/TNS/Power prediction, with significantly improved ease of use and performance. In the [RTL-Timer repository](https://github.com/hkust-zhiyao/RTL-Timer), we’ve included updated examples demonstrating RTL preprocessing using Yosys, replacing the manually written script used in MasterRTL. We’ve also provided ground-truth PPA report examples generated using Synopsys PrimeTime. Since RTL-Timer now covers all major functionalities of MasterRTL, please note that the MasterRTL repository will no longer be maintained going forward.
+
+
 
 ## Abstract
 
